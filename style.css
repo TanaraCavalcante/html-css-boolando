@@ -18,6 +18,7 @@ header{
     width: 100%;
     color: white;
     font-weight: 400;
+    box-shadow: 0px 2px 0px #1a1a1a70;;
     
 }
 
@@ -33,6 +34,9 @@ ul{
 
 }
 
+.border{
+    border: 2px dashed;
+}
 
 /*   Intestazione   */
 
@@ -41,10 +45,29 @@ header nav{
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    
 }
 
-img{
+.img-header{
     height: 40px;
     width: auto;
 }
 
+/*  Corpo del sito  */
+
+main{
+    padding-top: 150px;
+}
+
+.card{
+    width: calc(1200px/3);
+    height: 580px;  
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+
+}
