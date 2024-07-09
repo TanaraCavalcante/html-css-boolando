@@ -18,7 +18,7 @@ header{
     width: 100%;
     color: white;
     font-weight: 400;
-    box-shadow: 0px 2px 0px #1a1a1a70;;
+    box-shadow: 0px 2px 0px #1a1a1a70;
     
 }
 
@@ -48,6 +48,10 @@ ul{
 
  .pstn-left{
     left: 50px;
+}
+
+.pdg-btm{
+    padding-bottom: 30px;
 }
 
 .icon{
@@ -96,6 +100,7 @@ header nav{
 
 main{
     padding-top: 150px;
+    padding-bottom: 80px;
 }
 
 .column{
@@ -117,13 +122,16 @@ main{
     display: block;
 }
 
-span{
+.label{
     color: white;
-    padding: 5px 10px;
     position: absolute;
-    bottom: 30px;
+    bottom: 90px;
     left: 0;
     font-size: 12px;
+}
+
+.label span {
+    padding: 5px 10px;
 }
 
 p, a{
@@ -132,5 +140,22 @@ p, a{
 
 img :hover{
     background-image:url(img/1b.webp);
+}
+
+/* Base */
+
+
+footer{
+    height: 100px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
