@@ -38,6 +38,29 @@ ul{
     border: 2px dashed;
 }
 
+.bg-green{
+    background-color: darkgreen;
+ }
+ 
+ .bg-red{
+    background-color: red;
+ }
+
+ .pstn-left{
+    left: 50px;
+}
+
+.icon{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px 15px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+
+
 /*   Intestazione   */
 
 header nav{
@@ -61,13 +84,22 @@ main{
 
 .card{
     width: calc(1200px/3);
-    height: 580px;  
+    height: 580px; 
+    position: relative; 
 }
 
 .card img{
     width: 100%;
     height: auto;
     display: block;
-    
-
 }
+
+span{
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    font-size: 12px;
+}
+
