@@ -8,3 +8,43 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+header{
+    background-color: #FF6900;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+
+/*   Intestazione   */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+img{
+    height: 40px;
+    width: auto;
+}
+
